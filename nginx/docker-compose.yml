@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  react-frontend:
+    image: cs3219-otot-a1.3-app
+    ports:
+      - 8080:8080
+  nginx:
+    image: cs3219-otot-a1.3-nginx
+    ports:
+      - 3000:3000
